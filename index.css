@@ -1,1 +1,119 @@
-index.css
+/* Navbar */
+.custom-navbar {
+  background: rgba(0, 51, 102, 0.8); /* dark blue transparent */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #fff !important;
+}
+
+.custom-navbar .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(173, 216, 230, 0.4), rgba(173, 216, 230, 0.4)),
+              url("https://cdn1.vectorstock.com/i/1000x1000/87/65/seamless-pattern-of-outline-home-appliances-icons-vector-23578765.jpg") center/cover no-repeat;
+  color: #fff;
+  padding-top: 80px;
+}
+
+.hero h1 {
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+  color: #e0f2ff; /* lighter white-blue for readability */
+}
+
+/* Button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Section Styling */
+.why-choose-us {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.why-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #004080; /* dark blue theme */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 60% 60%;
+}
+
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* Featured Products Section */
+.featured-products {
+  background: #f8fbff; /* light blue background */
+  border-radius: 12px;
+}
+
+.featured-title {
+  color: #004080; /* Dark Blue */
+  font-size: 2.2rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+/* Cards */
+.card {
+  background: #e6f0ff; /* soft blue */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fb;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #f8f9fb;
+  border-top: 2px solid #e5d0e9; /* Soft lavender line */
+  color: #4c3f5d; /* Dark lavender text */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer-text {
+  margin: 0;
+}
